@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "toddiscool"
+  annotations:
+    "humanitec.com/orgId": "kubecon-na-2024"
+    "humanitec.com/appId": "toddiscool"
+spec:
+  type: service
+  owner: user:guest
+  lifecycle: experimental
